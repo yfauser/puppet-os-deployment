@@ -31,6 +31,7 @@ class { 'openstack::compute' :
     db_host                 => '192.168.178.232',  # This is the address of your OS-Controller Node
     keystone_host           => '192.168.178.232',  # This is the address of your OS-Controller Node
     quantum_host            => '192.168.178.232',  # This is the address of your OS-Controller Node
+    quantum_user_password   => 'OpenStack1!',
     ovs_local_ip            => "${ipaddress_eth1}",
     rabbit_host             => '192.168.178.232',  # This is the address of your OS-Controller Node
     glance_api_servers      => '192.168.178.232',  # This is the address of your OS-Controller Node
